@@ -1,0 +1,11 @@
+{
+    "name": "iMasak: Game Memasak Online",
+    "short_name": "iMasak",
+    "description": "Mainkan iMasak, game memasak online gratis! Nikmati serunya jadi koki. Klik & main langsung di browser sekarang",
+    "icons": "imasak-favicon.jpg",
+    "theme_color": "#2D2D2D",
+    "background_color": "#2D2D2D",
+    "display": "standalone",
+    "start_url": "./index.html",
+    "orientation": "portrait"
+}
