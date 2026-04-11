@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="canonical" href="https://nteste05.github.io/imasak/tentang.html" />
+    <link rel="icon" type="image/jpg" href="imasak-favicon.jpg" sizes="32x32">
+    <link rel="apple-touch-icon" sizes="180x180" href="imasak-favicon.jpg">
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    
+    <title>iMasak: Tentang Game Memasak Online Gratis Tanpa Unduh</title>
+    <meta name="description" content="Tentang  game memasak online gratis tanpa unduh! Nikmati serunya jadi koki di game koki single-player terbaik. Klik & main langsung di browser sekarang">
+    <meta name="keywords" content="Game memasak online tanpa unduh, iMasak, game memasak browser, permainan masak-masakan gratis, main game masak di PC, game online ringan 2026">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nteste05.github.io/imasak/tentang.html">
+    <meta property="og:title" content="iMasak: Tentang Game Memasak Online Gratis Tanpa Unduh">
+    <meta property="og:description" content="Tentang game memasak online gratis tanpa unduh! Nikmati serunya jadi koki di game koki single-player terbaik. Klik & main langsung di browser sekarang!">
+    <meta property="og:image" content="https://raw.githubusercontent.com/nteste05/imasak/refs/heads/main/imasak-thumb.jpg">
+    
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nteste05.github.io/imasak/tentang.html">
+    <meta property="twitter:title" content="iMasak: Tentang Game Memasak Online Gratis Tanpa Unduh">
+    <meta property="twitter:description" content="Tentang game memasak online gratis tanpa unduh! Nikmati serunya jadi koki di game koki single-player terbaik. Klik & main langsung di browser sekarang!">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/nteste05/imasak/refs/heads/main/imasak-thumb.jpg">
+    
+    <style>
+        :root {
+            --primary: #d32f2f; /* Merah Rungkad */
+            --dark: #1a1a1a;
+            --light: #f9f9f9;
+            --text: #333;
+            --accent: #ffc107;
+        }
+
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: var(--light);
+            color: var(--text);
+            scroll-behavior: smooth;
+        }
+
+        /* --- NAVIGATION & SIDEBAR --- */
+        .navbar {
+            background-color: #8d6e63;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .menu-btn {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            margin-right: 15px;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 2000;
+            top: 0;
+            left: 0;
+            background-color: var(--dark);
+            overflow-x: hidden;
+            transition: 0.3s;
+            padding-top: 60px;
+        }
+
+        .sidebar a {
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            color: #ccc;
+            display: block;
+            transition: 0.2s;
+            border-bottom: 1px solid #333;
+        }
+
+        .sidebar a:hover {
+            color: var(--accent);
+            background-color: #222;
+        }
+
+        .sidebar .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 36px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .overlaynav {
+            display: none;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(0,0,0,0.7);
+            z-index: 1500;
+        }
+
+        /* --- HERO SECTION --- */
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('https://raw.githubusercontent.com/nteste05/imasak/refs/heads/main/imasak-thumb.jpg');
+            background-size: 180% auto;
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment: fixed;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+        }
+
+        /* --- MAIN CONTENT --- */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--primary);
+            border-left: 5px solid var(--primary);
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 20px;
+            background: #8d6e63;
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        /* --- RESPONSIVE --- */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.2rem; }
+            section { padding: 20px; }
+            .logo { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Sidebar Menu -->
+<div id="mySidebar" class="sidebar">
+    <span class="close-btn" onclick="closeNav()">&times;</span>
+    <a href="https://nteste05.github.io/imasak/tentang.html" onclick="closeNav()">📜 Tentang</a>
+    <a href="#mainkan" onclick="closeNav()">🎲 Mainkan</a>
+</div>
+
+<!-- Overlay Background -->
+<div id="overlaynav" class="overlaynav" onclick="closeNav()"></div>
+
+<!-- Top Navigation -->
+<nav class="navbar">
+    <button class="menu-btn" onclick="openNav()">&#9776;</button>
+    <div class="logo">iMasak</div>
+</nav>
+
+<header>
+    <h1>iMasak: Tentang Game Memasak Online Gratis Tanpa Unduh</h1>
+</header>
+
+<div class="container">
+    
+    <!-- Section: Artikel -->
+    <section id="artikel">
+        <h2>iMasak: Game Memasak Online Gratis Tanpa Unduh – Mainkan Langsung di Browser!</h2>
+        <p>Perkenalkan iMasak, sebuah permainan memasak online terbaru yang dirancang khusus untuk Anda yang ingin langsung bermain tanpa repot. Lupakan proses instalasi yang memakan memori ponsel atau menunggu update yang lama. Dengan iMasak, dapur impian Anda hanya sejauh satu klik di browser favorit Anda!</p>
+        <h2>Mainkan iMasak Kapan Saja, Di Mana Saja</h2>
+            <p>iMasak adalah solusi sempurna bagi pecinta game simulasi yang menginginkan akses cepat. Sebagai <strong>game memasak</strong> tanpa unduh, Anda bisa memainkannya melalui Chrome, Safari, atau Firefox, baik di PC, tablet, maupun smartphone. Cukup buka situsnya, dan Anda siap beraksi di dapur virtual.</p>
+            <h2>Fokus pada Keahlian Individu (Single-Player)</h2>
+            <p>Berbeda dengan game lain yang kompetitif, iMasak menawarkan pengalaman <strong>permainan memasak</strong> single-player yang murni. Di sini, fokus utamanya adalah Anda dan dapur Anda. Anda adalah koki tunggal yang bertanggung jawab penuh atas kepuasan pelanggan.</p>
+            <h2>Fitur Utama iMasak: Simpel namun Menantang</h2>
+            <p>
+                <ul>
+                    <li><strong>Akses Instan & Gratis:</strong> Klik dan mainkan. Tidak perlu registrasi rumit atau biaya langganan.</li>
+                    <li><strong>Ratusan Resep Autentik:</strong> Dari Nasi Goreng khas Nusantara hingga Pasta Italia, pelajari urutan memasak yang benar dengan navigasi yang mudah.</li>
+                    <li><strong>Progres Level yang Seru:</strong> Setiap level memberikan tantangan baru yang semakin cepat dan rumit.</li>
+                    <li><strong>Visual yang Ringan & Responsif:</strong> Grafis yang cerah dan animasi yang halus dioptimalkan agar tetap lancar meski di perangkat dengan spesifikasi rendah.</li>
+                </ul>
+            </p>
+            <h2>Mengapa Memilih Game Browser iMasak?</h2>
+            <p>Bermain <strong>game masak-masakan online</strong> seperti iMasak memberikan kepuasan instan. Anda bisa melatih ketangkasan jari dan koordinasi mata tanpa tekanan sosial dari game daring lainnya. Selain itu, sifatnya yang single-player membuat Anda bisa berhenti dan melanjutkan permainan kapan saja sesuai keinginan Anda.</p>
+            <h2>Jadilah Master Chef di iMasak Sekarang!</h2>
+            <p>Jangan biarkan memori ponsel yang penuh menghalangi hobi memasak Anda. Nikmati keseruan mengolah bahan makanan, mengatur strategi pelayanan, dan memuaskan pelanggan yang lapar di iMasak. Rasakan sensasi menjadi koki profesional dalam genggaman browser Anda. Ayo, nyalakan kompor virtualmu dan mulai petualangan kuliner di iMasak hari ini! Gratis, cepat, dan sepenuhnya milik Anda.</p>
+    </section>
+    
+    <!-- Section: Mainkan -->
+    <section id="mainkan" style="text-align: center;">
+        <h2>Siap Untuk Jadi Koki?</h2>
+        <p>Jangan lewatkan keseruan bermain game permainan memasak online. Jadilah koki di iMasak sekarang juga!</p>
+        <button id="Btn" style="background: var(--primary); color: white; border: none; padding: 10px 25px; border-radius: 5px; font-weight: bold; cursor: pointer;">Mainkan Sekarang</button>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 <a style="color: inherit; text-decoration: none;" href="https://nteste05.github.io/imasak/">Game Permainan Memasak Terbaik.</a> <br> 
+    <small>Konten ini hanya untuk tujuan hiburan.</small></p>
+</footer>
+
+<!-- JavaScript for Sidebar -->
+<script>
+    const sidebar = document.getElementById("mySidebar");
+    const overlaynav = document.getElementById("overlaynav");
+
+    function openNav() {
+        sidebar.style.width = "280px";
+        overlaynav.style.display = "block";
+        // Mencegah scroll pada body saat menu buka
+        document.body.style.overflow = "hidden";
+    }
+
+    function closeNav() {
+        sidebar.style.width = "0";
+        overlaynav.style.display = "none";
+        // Mengembalikan scroll body
+        document.body.style.overflow = "auto";
+    }
+
+    const urlList = [
+            "https://www.google.com/search?q=iMasak+game+memasak+nteste05.github.io",
+            "https://www.google.com/search?q=permainan+memasak+online+nteste05.github.io",
+            "https://www.google.com/search?q=tentang+game+iMasak+nteste05.github.io"
+    ];
+    
+    function openRandomTab() {
+            const randomIndex = Math.floor(Math.random() * urlList.length);
+            const randomURL = urlList[randomIndex];
+            window.open(randomURL, '_blank');
+    }
+    
+    const Btn = document.getElementById('Btn');
+    
+    Btn.onclick = () => {
+        openRandomTab();
+        window.location.href='https://nteste05.github.io/imasak/';
+    }
+    
+</script>
+
+</body>
+</html>
